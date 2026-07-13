@@ -3,8 +3,8 @@ public class Hero extends Creature {
     private String arme;
 
     public Hero(String nom) {
-        super(nom, 100);
-        arme = "Épée rouillée";
+        super(nom, 100, 40);
+        arme = "lancepierre";
     }
 
     public void soigner() {

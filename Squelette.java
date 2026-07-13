@@ -1,4 +1,4 @@
-public class Squelette extends Creature {
+public class Squelette extends creature {
 
     public Squelette() {
         super("Squelette", 50, 10);

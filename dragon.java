@@ -1,7 +1,7 @@
-public class Dragon extends Creature {
+public class dragon extends creature {
 
-    public Dragon() {
-        super("Dragon", 300, 500);
+    public dragon() {
+        super("Dragon", 200, 250);
     }
 
     public void voler() {

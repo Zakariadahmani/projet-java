@@ -1,13 +1,13 @@
-public abstract class Creature {
+public abstract class creature {
 
     protected String nom;
     protected int vie;
     protected int niveau;
 
-    public Creature(String nom, int vie) {
+    public creature (String nom, int vie, int niveau) {
         this.nom = nom;
         this.vie = vie;
-        this.vie = niveau;
+        this.niveau = niveau;
     }
 
     public void afficher() {

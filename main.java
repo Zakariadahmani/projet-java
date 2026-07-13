@@ -1,12 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        
+
         Hero hero = new Hero("Zakdz59");
-
-        Dragon dragon = new Dragon();
-
+        dragon dragon = new dragon();
         Squelette squelette = new Squelette();
-
 
         System.out.println(" HEROS ");
         hero.afficher();

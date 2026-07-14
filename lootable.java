@@ -1,0 +1,1 @@
+public interface lootable { String loot(); }     // rend le butin

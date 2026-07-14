@@ -14,6 +14,10 @@ public abstract class creature {
         System.out.println(nom + " possède " + vie + " PV.");
     }   
 
+    public Boolean Vivant() {
+    return vie > 0;
+     }   
+
     public abstract void attaquer();
 }
 

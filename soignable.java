@@ -1,0 +1,1 @@
+public interface soignable { void soigner(int points); }

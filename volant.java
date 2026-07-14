@@ -1,0 +1,1 @@
+public interface volant { void voler(); }        // contrat, pas recette

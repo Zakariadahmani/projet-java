@@ -1,6 +1,6 @@
-public class dragon extends creature {
+public class dragon extends creature implements lootable {
 
-    public dragon(String nom, int vie, int niveau) {
+   public dragon(String nom, int vie, int niveau) {
         super("Dragon", 200, 250);
     }
 
@@ -8,12 +8,13 @@ public class dragon extends creature {
         System.out.println("Le dragon s'envole dans le ciel.");
     }
 
-    public void loot() {
-        System.out.println("Loot : Écaille de dragon.");
+    @Override
+    public void attaquer() {
+        System.out.println(nom + " crache du feu !");
     }
 
     @Override
-    public void attaquer() {
-        System.out.println("Le dragon crache du feu !");
-    }
+    public String loot() {
+        return "Vous récupérez une écaille de dragon.";
+        }
 }

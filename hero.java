@@ -2,8 +2,8 @@ public class Hero extends creature {
 
     private String arme;
 
-    public Hero(String nom) {
-    super(nom, 100, 45);
+    public Hero(String nom, int vie, int niveau) {
+    super("Hero", 100, 45);
     arme = "lancepierre";
     }
     

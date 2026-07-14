@@ -1,6 +1,6 @@
 public class Squelette extends creature {
 
-    public Squelette() {
+    public Squelette(String nom, int vie, int niveau) {
         super("Squelette", 50, 10);
     }
 

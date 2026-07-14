@@ -1,6 +1,6 @@
 public class dragon extends creature {
 
-    public dragon() {
+    public dragon(String nom, int vie, int niveau) {
         super("Dragon", 200, 250);
     }
 

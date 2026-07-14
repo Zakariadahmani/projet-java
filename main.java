@@ -1,9 +1,10 @@
 public class Main {
     public static void main(String[] args) {
 
-        Hero hero = new Hero("Zakdz59");
-        dragon dragon = new dragon();
-        Squelette squelette = new Squelette();
+        Hero hero = new Hero("Zakdz59", 100, 45);
+        dragon dragon = new dragon("Dragon", 200, 250);
+        Squelette squelette = new Squelette("Squelette", 50, 10);
+        loup loup = new loup("loup", 70, 30);
 
         System.out.println(" HEROS ");
         hero.afficher();
@@ -26,5 +27,11 @@ public class Main {
         squelette.afficher();
         squelette.attaquer();
         squelette.loot();
+
+        System.out.println();
+        
+        System.out.println("LOUP ");
+        loup.afficher();
+        loup.attaquer(); 
         }
     }

@@ -1,7 +1,9 @@
-public class dragon extends creature implements lootable {
+public class dragon extends creature implements lootable, volant {
+    private element souffle;
 
    public dragon(String nom, int vie, int niveau) {
         super("Dragon", 200, 250);
+        this.souffle = element.FEU;
     }
 
     public void voler() {
@@ -10,7 +12,7 @@ public class dragon extends creature implements lootable {
 
     @Override
     public void attaquer() {
-        System.out.println(nom + " crache du feu !");
+        System.out.println(nom + " crache du feu du type" + souffle + " !");
     }
 
     @Override

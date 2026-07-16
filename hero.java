@@ -1,15 +1,16 @@
-public class Hero extends creature {
+public class Hero extends creature implements soignable {
 
     private String arme;
 
     public Hero(String nom, int vie, int niveau) {
-    super("Hero", 100, 45);
-    arme = "lancepierre";
+        super(nom, vie, niveau);
+        arme = "lancepierre";
     }
-    
-    public void soigner() {
-        vie += 20;
-        System.out.println(nom + " se soigne (+20 PV).");
+
+    @Override
+    public void soigner(int points) {
+        vie += points;
+        System.out.println(nom + " se soigne (+" + points + " PV).");
     }
 
     @Override

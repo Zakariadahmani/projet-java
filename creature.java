@@ -16,10 +16,14 @@ public abstract class creature {
 
     public Boolean Vivant() {
     return vie > 0;
-     }   
+        }
+
+    public void subirDegats(int degats) {
+    vie = vie - degats;   // void : modifie l'objet, ne renvoie rien
+} 
 
     public abstract void attaquer();
-    
+
 
     protected Faction faction;
 

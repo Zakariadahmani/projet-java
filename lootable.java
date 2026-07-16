@@ -1,1 +1,1 @@
-public interface lootable { String loot(); }     // rend le butin
+public interface lootable { String piller(); }     // rend le butin

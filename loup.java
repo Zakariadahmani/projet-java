@@ -11,7 +11,7 @@ public class loup extends creature implements lootable {
         }
 
     @Override
-    public String loot() { 
+    public String piller() { 
         return "Fourrure de loup (COMMUN)";
     }
 }

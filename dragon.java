@@ -16,7 +16,7 @@ public class dragon extends creature implements lootable, volant {
     }
 
     @Override
-    public String loot() {
+    public String piller() {
         return "Vous récupérez une écaille de dragon.";
         }
 }

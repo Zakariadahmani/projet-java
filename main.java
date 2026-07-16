@@ -18,7 +18,7 @@ public class Main {
         dragon.afficher();
         dragon.attaquer();
         dragon.voler();
-        dragon.loot();
+        dragon.piller();
 
 
         System.out.println();
@@ -26,14 +26,14 @@ public class Main {
         System.out.println("SQUELETTE ");
         squelette.afficher();
         squelette.attaquer();
-        squelette.loot();
+        squelette.piller();
 
         System.out.println();
         
         System.out.println("LOUP ");
         loup.afficher();
         loup.attaquer(); 
-        loup.loot();
+        loup.piller();
 
         System.out.println();
         System.out.println("BESTIAIRE ");

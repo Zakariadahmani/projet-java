@@ -1,3 +1,1 @@
-public enum element {
-    FEU, GLACE, FOUDRE,
-}
+public enum element {FEU, GLACE, FOUDRE} 

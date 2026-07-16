@@ -1,0 +1,1 @@
+public enum Faction { AMI, ENNEMI, NEUTRE }

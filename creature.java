@@ -19,5 +19,15 @@ public abstract class creature {
      }   
 
     public abstract void attaquer();
+    
+
+    protected Faction faction;
+
+public creature(String nom, int pv, int niveau, Faction faction) {
+    this.nom = nom;
+    this.vie = pv;
+    this.niveau = niveau;
+    this.faction = faction;
+    }
 }
 

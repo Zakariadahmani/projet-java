@@ -4,7 +4,7 @@ public class Squelette extends creature {
         super("Squelette", 50, 10);
     }
 
-    public void loot() {
+    public void piller() {
         System.out.println("Loot : Un os.");
     }
 

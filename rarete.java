@@ -1,0 +1,1 @@
+public enum rarete { COMMUN, RARE, EPIQUE, LEGENDAIRE }  

@@ -15,4 +15,3 @@ public class loup extends creature implements lootable {
         return "Fourrure de loup (COMMUN)";
     }
 }
-

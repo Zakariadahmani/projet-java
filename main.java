@@ -33,5 +33,20 @@ public class Main {
         System.out.println("LOUP ");
         loup.afficher();
         loup.attaquer(); 
+        loup.loot();
+
+        System.out.println();
+        System.out.println("BESTIAIRE ");
+        creature[] bestiaire = new creature[4];
+        bestiaire[0] = hero;
+        bestiaire[1] = dragon;
+        bestiaire[2] = squelette;
+        bestiaire[3] = loup;
+
+        System.out.println();
+        System.out.println("TOUT LE MONDE ATTAQUE :");
+        for (creature c : bestiaire) {
+            c.attaquer();
         }
     }
+}
